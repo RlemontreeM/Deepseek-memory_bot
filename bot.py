@@ -336,6 +336,8 @@ def main():
     
     # Запуск
     logger.info("🤖 Бот запущен (python-telegram-bot 13.15, полная память)...")
+    import time
+    time.sleep(10)
     updater.start_polling()
     updater.idle()
 
